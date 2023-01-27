@@ -8,6 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    color: #333;
 }
 
 main {
@@ -75,6 +76,29 @@ li {
     line-height: 1.9rem;
 }
 
+blockquote {
+    width: 550px;
+    margin: auto;
+}
+
+blockquote > p {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
 cite {
-    font-weight: normal;
+    font-size: 1rem;
+}
+
+main > p {
+    text-align: center;
+    font-weight: bolder;
+    padding: 35px 30px 30px 30px;
+}
+
+a:visited {
+    color: #74638f;
 }
